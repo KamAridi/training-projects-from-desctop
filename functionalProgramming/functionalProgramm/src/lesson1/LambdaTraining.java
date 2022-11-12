@@ -2,7 +2,7 @@ package lesson1;
 
 import java.util.Comparator;
 
-public class Main {
+public class LambdaTraining {
     public static void main(String[] args) {
         Comparator<Integer> comparator = Integer::compare;
 
