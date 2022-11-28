@@ -14,7 +14,7 @@ public class LatchDemo {
         Arrays.stream(RocketPart.values())
                         .map(part-> new RocketPartRunnable(countDownLatch, part))
                         .forEach(pool::submit);
-
         pool.shutdown();
     }
 }
+
